@@ -1,47 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd"
-        crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="container-fluid">
-        <div class="row row-card">
-          <div class="col-sm-6">
-            <div class="card card-height">
-              <div class="card-header">
-                California Unemployment Rate
-              </div>
-              <div class="card-body">
-                <div class="content-main">
-                  <div id="unemployment_state_average" data-type="data-views"></div>
-                </div>
-              </div>
-            </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+    integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12" col-sm-offset-2">
+          <div class="main-heading text-center">
+            <h1>California Unemployment Rate Dashboard</h1>
           </div>
-          <div class="col-sm-6">
-            <div class="card card-height">
-              <div class="card-header">
-                Santa Clara County Unemployment Rate
-              </div>
-              <div class="card-body">
-                <div class="content-main">
-                  <div id="unemployment_santa_clara_average" data-type="data-views"></div>
-                </div>
+        </div>
+      </div>
+      <div class="row row-card">
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-header card-green">
+              California Unemployment Rate
+            </div>
+            <div class="card-body">
+              <div class="content-main">
+                <div id="unemployment_state_average" data-type="data-views"></div>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-header card-green">
+              Alameda County Unemployment Rate
+            </div>
+            <div class="card-body">
+              <div class="content-main">
+                <div id="unemployment_alameda_average" data-type="data-views"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-header card-green">
+              Santa Clara County Unemployment Rate
+            </div>
+            <div class="card-body">
+              <div class="content-main">
+                <div id="unemployment_santa_clara_average" data-type="data-views"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+              <div class="card-header card-green">
+                Santa Cruz County Unemployment Rate
+              </div>
+              <div class="card-body">
+                <div class="content-main">
+                  <div id="unemployment_santa_cruz_average" data-type="data-views"></div>
+                </div>
+              </div>
+            </div>
+          </div>  
       </div>
     </div>
-    <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="static/js/main.js"></script>
-  </body>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="static/js/main.js"></script>
+</body>
+
 </html>
