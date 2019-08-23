@@ -18,7 +18,7 @@ function buildStateWidget(elementID) {
       "specType": "vega",
       "spec": {
         "$schema": "https://vega.github.io/schema/vega/v3.json",
-        "height": 160,
+        "height": 200,
         "width": 238,
         "padding": 0,
         "data": [
@@ -127,7 +127,7 @@ function buildCountyWidget(elementID, county) {
       "specType": "vega",
       "spec": {
         "$schema": "https://vega.github.io/schema/vega/v3.json",
-        "height": 160,
+        "height": 200,
         "width": 238,
         "padding": 0,
         "data": [
